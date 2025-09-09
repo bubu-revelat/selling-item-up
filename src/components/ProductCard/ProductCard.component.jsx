@@ -83,7 +83,7 @@ const ProductCard = ({ product }) => {
             </Typography>
           )}
           <Button variant="contained" color="success" onClick={handleWhatsAppClick}>
-            I want it
+            Lo Quiero!
           </Button>
         </Box>
       </CardContent>
