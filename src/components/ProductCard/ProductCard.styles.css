@@ -1,0 +1,11 @@
+.product-card-mui {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Ensure cards in a grid have consistent height */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slightly more prominent shadow */
+}
+
+/* Responsive adjustments (MUI handles most of this, but for explicit control) */
+@media (min-width: 600px) {
+  /* No specific overrides needed here, MUI Grid will handle the layout */
+}

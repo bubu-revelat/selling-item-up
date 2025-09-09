@@ -1,0 +1,9 @@
+.product-list-container {
+  max-width: 900px; /* Max width for the whole list */
+  margin: 20px auto; /* Center the list on the page */
+  padding: 0 15px; /* Add some padding on the sides */
+}
+
+.devextreme-product-list .dx-list-item {
+  padding: 0; /* Remove default padding from DevExtreme list items */
+}
