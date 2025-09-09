@@ -1,3 +1,4 @@
+// ProductCard.jsx (No changes needed, the CSS handles the sizing)
 import React, { useState } from 'react';
 import {
   Card,
@@ -11,13 +12,17 @@ import {
   IconButton
 } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
-import './ProductCard.styles.css'; // We'll keep a CSS file for custom adjustments
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import './ProductCard.styles.css'; // Make sure your CSS file is correctly imported
 
 const ProductCard = ({ product }) => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
 
+  const cardImage = product.imageSrcs && product.imageSrcs.length > 0 ? product.imageSrcs[0] : null;
+
   const handleImageClick = () => {
-    if (product.imageSrc) {
+    if (product.imageSrcs && product.imageSrcs.length > 0) {
       setIsPopupOpen(true);
     }
   };
@@ -33,7 +38,6 @@ const ProductCard = ({ product }) => {
     window.open(whatsappUrl, '_blank');
   };
 
-  // Helper to render description with line breaks
   const renderDescription = (description) => {
     if (!description || description === "nan") return null;
     return description.split('\n').map((item, key) => (
@@ -45,10 +49,10 @@ const ProductCard = ({ product }) => {
 
   return (
     <Card className="product-card-mui">
-      {product.imageSrc ? (
+      {cardImage ? (
         <CardMedia
           component="img"
-          image={product.imageSrc}
+          image={cardImage}
           alt={product.name}
           onClick={handleImageClick}
           sx={{ cursor: 'pointer', height: 200, objectFit: 'cover' }}
@@ -75,7 +79,7 @@ const ProductCard = ({ product }) => {
           {product.name}
         </Typography>
         {renderDescription(product.description)}
-        <Box sx={{ flexGrow: 1 }} /> {/* Spacer to push footer to bottom */}
+        <Box sx={{ flexGrow: 1 }} />
         <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mt: 2 }}>
           {product.price !== 0 && (
             <Typography variant="h6" color="primary">
@@ -95,15 +99,24 @@ const ProductCard = ({ product }) => {
             onClick={handleClosePopup}
             sx={{
               position: 'absolute',
-              right: 8,
-              top: 8,
+              right: 30,
+              top: 10, // push it lower so it doesn’t overlap
               color: (theme) => theme.palette.grey[500],
-              zIndex: 1
+              zIndex: 2
             }}
           >
             <CloseIcon />
           </IconButton>
-          <img src={product.imageSrc} alt={product.name} style={{ width: '100%', height: 'auto', display: 'block' }} />
+          {product.imageSrcs && product.imageSrcs.length > 0 && (
+            <Carousel showThumbs={true} infiniteLoop={true} useKeyboardArrows={true}>
+              {product.imageSrcs.map((imageSrc, index) => (
+                <div key={index}>
+                  {/* The styling for this img is now controlled by ProductCard.styles.css */}
+                  <img src={imageSrc} alt={`${product.name} - ${index + 1}`} />
+                </div>
+              ))}
+            </Carousel>
+          )}
         </DialogContent>
       </Dialog>
     </Card>
