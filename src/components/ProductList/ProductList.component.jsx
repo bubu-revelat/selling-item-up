@@ -7,7 +7,7 @@ const ProductList = () => {
   return (
     <Box sx={{ flexGrow: 1, p: 3 }}>
       <Typography variant="h4" component="h1" align="center" gutterBottom>
-        Su pregunta no molesta
+        Su pregunta no molesta 😊
       </Typography>
       <Grid container spacing={3} justifyContent="center">
         {products.map((product) => (

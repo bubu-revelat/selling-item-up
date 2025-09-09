@@ -7,8 +7,8 @@ function App() {
     <>
       <CssBaseline /> {/* Resets CSS for consistent styling */}
       <AppBar position="static">
-        <Toolbar>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+        <Toolbar sx={{ backgroundColor: '#ED7698' }}>
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1, color: 'white' }}>
             Lista de productos en venta
           </Typography>
         </Toolbar>
