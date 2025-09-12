@@ -131,7 +131,8 @@ export const products = [
     "description": "• Altura 1.25 MT\n• Ancho 1,60 mt\n• Prof 0,45",
     "price": 0,
     "imageSrcs": [
-      "/images/mueble_viejo1.jpeg"
+      "/images/mueble_viejo1.jpeg",
+      "/images/mueble_viejo2.jpeg"
     ]
   },
   {
@@ -190,6 +191,62 @@ export const products = [
     "price": 0,
     "imageSrcs": [
       "/images/mueble_aparador1.jpeg"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Mueble de estilo antiguo",
+    "description": "• Alto 1,90 mts\n• Ancho: 0,50 \n• Prof: x 0,60",
+    "price": 0,
+    "imageSrcs": [
+      "/images/repisa_antigua1.jpeg",
+      "/images/repisa_antigua2.jpeg"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Apliques luz de pared  x 4 unidades",
+    "description": "",
+    "price": 0,
+    "imageSrcs": [
+      "/images/apliques_chicos1.jpeg"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Apliques luz aluminio",
+    "description": "",
+    "price": 0,
+    "imageSrcs": [
+      "/images/apliques_aluminio1.jpeg",
+      "/images/apliques_aluminio2.jpeg"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Araña colgante antigua madera y metal",
+    "description": "Diametro: 0,65 cm\n• Largo 3 mts\n• Con cadena",
+    "price": 0,
+    "imageSrcs": [
+      "/images/arania1.jpeg"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Niños bien educados",
+    "description": "niña 1.54 mts\n• niño 1.30 mts\n• Colores varios\n• No se venden por separado",
+    "price": 0,
+    "imageSrcs": [
+      "/images/ninios1.jpeg"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Capibara de ciudad",
+    "description": "Largo: 100mts\n• Alto x 0.25cms",
+    "price": 0,
+    "imageSrcs": [
+      "/images/capibara1.jpeg"
     ]
   }
 ]
