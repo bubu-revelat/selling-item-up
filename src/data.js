@@ -124,5 +124,72 @@ export const products = [
       "/images/espejo2.jpeg",
       "/images/espejo3.jpeg",
     ]
+  },
+  {
+    "id": 14,
+    "name": "Mueble antiguo restaurado. Excelente estado de conservacion",
+    "description": "• Altura 1.25 MT\n• Ancho 1,60 mt\n• Prof 0,45",
+    "price": 0,
+    "imageSrcs": [
+      "/images/mueble_viejo1.jpeg"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Perchero",
+    "description": "• 32 cm largo",
+    "price": 0,
+    "imageSrcs": [
+      "/images/perchero1.jpeg",
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Biblioteca blanca laqueada",
+    "description": "• Alto: 1,80 mts\n• Ancho: 0,40\n• Profundo x 0,30",
+    "price": 0,
+    "imageSrcs": [
+      "/images/biblioteca_laqueada1.jpeg",
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Biblioteca de estilo x 2 unidades",
+    "description": "• Alto: 2 mts\n• Ancho: 0,75\n• Profundo x 0,30",
+    "price": 0,
+    "imageSrcs": [
+      "/images/biblio_antigua1.jpeg",
+      "/images/biblio_antigua2.jpeg",
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Juego de sillones tipo chesterfileld",
+    "description": "",
+    "price": 0,
+    "imageSrcs": [
+      "/images/juego_sillones1.jpeg",
+      "/images/juego_sillones2.jpeg",
+      "/images/juego_sillones3.jpeg",
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Juego de mesa ratona laqueada en negro + 2 bancos. Escuadra irregular",
+    "description": "• Largo 1,15 mts\n• Ancho: 0,50",
+    "price": 0,
+    "imageSrcs": [
+      "/images/mesa_ratona1.jpeg",
+      "/images/mesa_ratona2.jpeg"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Mueble aparador de estilo. Madera maciza",
+    "description": "• Largo 1,88 mts\n• Alto: 0,90 \n• Prof: x 0,40",
+    "price": 0,
+    "imageSrcs": [
+      "/images/mueble_aparador1.jpeg"
+    ]
   }
 ]
