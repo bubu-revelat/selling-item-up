@@ -245,7 +245,7 @@ export const products = [
     "id": 26,
     "name": "Araña colgante madera y vidrio",
     "description": "Diametro: 50cm",
-    "price": 0,
+    "price": 69000,
     "imageSrcs": [
       "/images/arania_madera1.jpeg",
       "/images/arania_madera2.jpeg",
@@ -256,8 +256,8 @@ export const products = [
   {
     "id": 27,
     "name": "Veladores o apliques de pared madera y vidrio x 2 unidades",
-    "description": "",
-    "price": 0,
+    "description": "2x $45.000",
+    "price": 25000,
     "imageSrcs": [
       "/images/aplique_madera1.jpeg"
     ]
@@ -296,7 +296,7 @@ export const products = [
     "description": "Led, plegable",
     "price": 95000,
     "imageSrcs": [
-      "/images/monopatin1.jpeg"
+      "/images/monopatin1.png"
     ]
   }
 ]
