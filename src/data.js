@@ -156,8 +156,8 @@ export const products = [
   {
     "id": 17,
     "name": "Biblioteca de estilo x 2 unidades",
-    "description": "• Alto: 2 mts\n• Ancho: 0,75\n• Profundo x 0,30 /n 2x $20.000",
-    "price": 11000,
+    "description": "• Alto: 2 mts\n• Ancho: 0,75\n• Profundo x 0,30 /n 2x $200.000",
+    "price": 110000,
     "imageSrcs": [
       "/images/biblio_antigua1.jpeg",
       "/images/biblio_antigua2.jpeg",
