@@ -22,16 +22,6 @@ export const products = [
     ]
   },
   {
-    "id": 3,
-    "name": "Estanterías blancas de metal (2 unidades)",
-    "description": "•⁠ alto 1.90 mts\n•⁠ ancho 0,90 mts",
-    "price": 68000,
-    "imageSrcs": [
-      "/images/estantes_metal1.jpeg",
-      "/images/estantes_metal2.jpeg"
-    ]
-  },
-  {
     "id": 4,
     "name": "Atril",
     "description": "•⁠ alto 2 mts\n•⁠ ancho 0,60 mts",
@@ -270,15 +260,6 @@ export const products = [
     "imageSrcs": [
       "/images/plafon_blanco1.jpeg",
       "/images/plafon_blanco2.jpeg"
-    ]
-  },
-  {
-    "id": 29,
-    "name": "Farol de metal con vidrio x 2 unidades",
-    "description": "Medida: 0.35 mts largo /n 2x $50.000",
-    "price": 28000,
-    "imageSrcs": [
-      "/images/farol_blanco1.jpeg"
     ]
   },
   {
