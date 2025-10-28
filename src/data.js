@@ -264,20 +264,19 @@ export const products = [
   },
   {
     "id": 30,
-    "name": "Farol metal colgante",
-    "description": "Medida: 0.35 mt largo + cadena",
-    "price": 17000,
-    "imageSrcs": [
-      "/images/farol_metal_colgante1.jpeg"
-    ]
-  },
-  {
-    "id": 30,
     "name": "Monopatin cobra 720 con luces led plegable",
     "description": "Led, plegable",
     "price": 80750,
     "imageSrcs": [
       "/images/monopatin1.png"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Bicicleta rodado 26",
+    "price": 75000,
+    "imageSrcs": [
+      "/images/bici1.jpeg"
     ]
   }
 ]
