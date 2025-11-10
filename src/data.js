@@ -22,30 +22,12 @@ export const products = [
     ]
   },
   {
-    "id": 4,
-    "name": "Atril",
-    "description": "•⁠ alto 2 mts\n•⁠ ancho 0,60 mts",
-    "price": 21250,
-    "imageSrcs": [
-      "/images/atril.jpeg",
-    ]
-  },
-  {
     "id": 5,
     "name": "Mampara baño de aluminio y poliuretano. Blanca con detalle de flor en paño central.",
     "description": "•⁠  ⁠3 paños de 1,40 mts de altura x 0,60 de ancho\n•⁠  ⁠1paño de 1,40 mts alto x 0,76 ancho",
     "price": 72250,
     "imageSrcs": [
       "/images/mampara.jpeg",
-    ]
-  },
-  {
-    "id": 6,
-    "name": "Parrilla con chapones base",
-    "description": "•⁠  ⁠parrilla: 1,50 largo x 0,70 ancho x 0,20 altura\n•⁠  ⁠chapones x 3 u.: 0,90 x 0,60",
-    "price": 38250,
-    "imageSrcs": [
-      "/images/parrilla.jpeg",
     ]
   },
   {
@@ -277,6 +259,18 @@ export const products = [
     "price": 75000,
     "imageSrcs": [
       "/images/bici1.jpeg"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Pileta de lona marca pelopincho",
+    "description": "Excelente estado. Medidas en la caja. De regalo piso de goma eva para la base de la pileta.",
+    "price": 65000,
+    "imageSrcs": [
+      "/images/pile1.jpeg",
+      "/images/pile2.jpeg",
+      "/images/pile3.jpeg",
+      "/images/pile4.jpeg"
     ]
   }
 ]
