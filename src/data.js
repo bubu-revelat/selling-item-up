@@ -40,15 +40,6 @@ export const products = [
     ]
   },
   {
-    "id": 8,
-    "name": "Biombo de madera y junco ( esterilla) 3 hojas",
-    "description": "• Medidas por paño: 1,70 alto x 0.75 ancho",
-    "price": 38250,
-    "imageSrcs": [
-      "/images/biombo_de_madera.jpeg",
-    ]
-  },
-  {
     "id": 9,
     "name": "Parlante GRB",
     "description": "• Medida 0,60 x 0,40",
