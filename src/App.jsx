@@ -33,7 +33,7 @@ function App() {
           },
         }}
       >
-        🎉 ¡Aprovechá! Todos los precios bajaron un 15% ✨
+        🎉 ¡Aprovechá! Todos los precios bajaron un 25% y algunos más 😱 ✨
       </Box>
 
       <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>

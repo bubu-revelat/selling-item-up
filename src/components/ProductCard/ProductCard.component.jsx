@@ -80,12 +80,36 @@ const ProductCard = ({ product }) => {
         </Typography>
         {renderDescription(product.description)}
         <Box sx={{ flexGrow: 1 }} />
-        <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mt: 2 }}>
-          {product.price !== 0 && (
-            <Typography variant="h6" color="primary">
-              ${product.price}
-            </Typography>
-          )}
+        <Box
+          sx={{
+            display: 'flex',
+            justifyContent: 'space-between',
+            alignItems: 'flex-end',
+            mt: 2
+          }}
+        >
+          <Box sx={{ display: 'flex', flexDirection: 'column' }}>
+            {/* Old price (if exists) */}
+            {product.beforeprice && product.beforeprice > product.price && (
+              <Typography
+                variant="body2"
+                sx={{
+                  textDecoration: 'line-through',
+                  color: 'text.secondary'
+                }}
+              >
+                ${product.beforeprice}
+              </Typography>
+            )}
+
+            {/* Current price */}
+            {product.price !== 0 && (
+              <Typography variant="h6" color="primary">
+                ${product.price}
+              </Typography>
+            )}
+          </Box>
+
           <Button variant="contained" color="success" onClick={handleWhatsAppClick}>
             Lo Quiero!
           </Button>

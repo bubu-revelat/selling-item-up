@@ -3,7 +3,8 @@ export const products = [
     "id": 1,
     "name": "Cama cucheta en L. 1 plaza. Marca \"verde limon\"",
     "description": "•⁠  ⁠cama alta + escalera anexada (movil) 2,40 mts\n•⁠  ⁠cama baja 1,90 más de largo (movil) \n•⁠  ⁠ancho base escalera 0.90 más\n•⁠  ⁠ancho camas 0.90 mts",
-    "price": 382500,
+    "beforeprice": 382500,
+    "price": 245000,
     "imageSrcs": [ 
       "/images/cucheta1.jpeg",
       "/images/cucheta2.jpeg",
@@ -15,7 +16,8 @@ export const products = [
     "id": 2,
     "name": "Mueble de guardado fácil",
     "description": "•⁠  ⁠ancho 1.30 mts\n•⁠  ⁠alto 1,60 mts\n•⁠  ⁠profundidad máxima 0,49 mts",
-    "price": 97750,
+    "beforeprice": 97750,
+    "price": 78000,
     "imageSrcs": [
       "/images/mueble1.jpeg",
       "/images/mueble2.jpeg"
@@ -28,35 +30,6 @@ export const products = [
     "price": 72250,
     "imageSrcs": [
       "/images/mampara.jpeg",
-    ]
-  },
-  {
-    "id": 7,
-    "name": "Puerta de reja de caño",
-    "description": "•⁠ Alto 1 mt\n•⁠ Ancho 0,73 mts (incluido parante con bisagra)",
-    "price": 38250,
-    "imageSrcs": [
-      "/images/puerta.jpeg",
-    ]
-  },
-  {
-    "id": 9,
-    "name": "Parlante GRB",
-    "description": "• Medida 0,60 x 0,40",
-    "price": 0,
-    "imageSrcs": [
-      "/images/parlante1.jpeg",
-      "/images/parlante2.jpeg",
-      "/images/parlante3.jpeg",
-    ]
-  },
-  {
-    "id": 10,
-    "name": "Sillas de Caño varias",
-    "description": "2x $25.000",
-    "price": 12750,
-    "imageSrcs": [
-      "/images/silla.jpeg",
     ]
   },
   {
@@ -81,7 +54,8 @@ export const products = [
     "id": 13,
     "name": "Espejo de hierro con estantes en madera maciza(hace juego con estantes)",
     "description": "• Espejo: 1,34 mts alto x 1 mt ancho\n• Estante madera: 1 mt largo x 0,19 mt ancho y espesor 3,5 cm",
-    "price": 106250,
+    "beforeprice": 106250,
+    "price": 77000,
     "imageSrcs": [
       "/images/espejo1.jpeg",
       "/images/espejo2.jpeg",
@@ -92,7 +66,8 @@ export const products = [
     "id": 14,
     "name": "Mueble antiguo restaurado. Excelente estado de conservacion",
     "description": "• Altura 1.25 MT\n• Ancho 1,60 mt\n• Prof 0,45",
-    "price": 301750,
+    "beforeprice": 301750,
+    "price": 295000,
     "imageSrcs": [
       "/images/mueble_viejo1.jpeg",
       "/images/mueble_viejo2.jpeg"
@@ -127,33 +102,14 @@ export const products = [
     ]
   },
   {
-    "id": 18,
-    "name": "Juego de sillones tipo chesterfileld",
-    "description": "",
-    "price": 382500,
-    "imageSrcs": [
-      "/images/juego_sillones1.jpeg",
-      "/images/juego_sillones2.jpeg",
-      "/images/juego_sillones3.jpeg",
-    ]
-  },
-  {
     "id": 19,
     "name": "Juego de mesa ratona laqueada en negro + 2 bancos. Escuadra irregular",
     "description": "• Largo 1,15 mts\n• Ancho: 0,50",
-    "price": 72250,
+    "beforeprice": 72250,
+    "price": 46000,
     "imageSrcs": [
       "/images/mesa_ratona1.jpeg",
       "/images/mesa_ratona2.jpeg"
-    ]
-  },
-  {
-    "id": 20,
-    "name": "Mueble aparador de estilo. Madera maciza",
-    "description": "• Largo 1,88 mts\n• Alto: 0,90 \n• Prof: x 0,40",
-    "price": 208250,
-    "imageSrcs": [
-      "/images/mueble_aparador1.jpeg"
     ]
   },
   {
@@ -262,6 +218,30 @@ export const products = [
       "/images/pile2.jpeg",
       "/images/pile3.jpeg",
       "/images/pile4.jpeg"
+    ]
+  },
+    {
+    "id": 33,
+    "name": "Roller niños marca HEAD",
+    "description": "Extensibles. Excelente estado. Modelo TITAN 231 ",
+    "price": 35000,
+    "imageSrcs": [
+      "/images/roller1.jpeg",
+      "/images/roller2.jpeg",
+      "/images/roller3.jpeg",
+      "/images/roller4.jpeg"
+    ]
+  },
+   {
+    "id": 34,
+    "name": "Ventilador industrial de pie AXEL",
+    "description": "Marca AXEL 70 CM diámetro. Aspas de metal.",
+    "price": 95000,
+    "imageSrcs": [
+      "/images/venti1.jpeg",
+      "/images/venti2.jpeg",
+      "/images/venti3.jpeg",
+      "/images/venti4.jpeg"
     ]
   }
 ]
