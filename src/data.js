@@ -231,17 +231,5 @@ export const products = [
       "/images/roller3.jpeg",
       "/images/roller4.jpeg"
     ]
-  },
-   {
-    "id": 34,
-    "name": "Ventilador industrial de pie AXEL",
-    "description": "Marca AXEL 70 CM diámetro. Aspas de metal.",
-    "price": 95000,
-    "imageSrcs": [
-      "/images/venti1.jpeg",
-      "/images/venti2.jpeg",
-      "/images/venti3.jpeg",
-      "/images/venti4.jpeg"
-    ]
   }
 ]
