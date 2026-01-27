@@ -1,18 +1,5 @@
 export const products = [
   {
-    "id": 1,
-    "name": "Cama cucheta en L. 1 plaza. Marca \"verde limon\"",
-    "description": "•⁠  ⁠cama alta + escalera anexada (movil) 2,40 mts\n•⁠  ⁠cama baja 1,90 más de largo (movil) \n•⁠  ⁠ancho base escalera 0.90 más\n•⁠  ⁠ancho camas 0.90 mts",
-    "beforeprice": 382500,
-    "price": 245000,
-    "imageSrcs": [ 
-      "/images/cucheta1.jpeg",
-      "/images/cucheta2.jpeg",
-      "/images/cucheta3.jpeg",
-      "/images/cucheta4.jpeg"
-    ]
-  },
-  {
     "id": 2,
     "name": "Mueble de guardado fácil",
     "description": "•⁠  ⁠ancho 1.30 mts\n•⁠  ⁠alto 1,60 mts\n•⁠  ⁠profundidad máxima 0,49 mts",
