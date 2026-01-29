@@ -187,26 +187,6 @@ export const products = [
       "/images/monopatin1.png"
     ]
   },
-  {
-    "id": 31,
-    "name": "Bicicleta rodado 26",
-    "price": 75000,
-    "imageSrcs": [
-      "/images/bici1.jpeg"
-    ]
-  },
-  {
-    "id": 32,
-    "name": "Pileta de lona marca pelopincho",
-    "description": "Excelente estado. Medidas en la caja. De regalo piso de goma eva para la base de la pileta.",
-    "price": 65000,
-    "imageSrcs": [
-      "/images/pile1.jpeg",
-      "/images/pile2.jpeg",
-      "/images/pile3.jpeg",
-      "/images/pile4.jpeg"
-    ]
-  },
     {
     "id": 33,
     "name": "Roller niños marca HEAD",
