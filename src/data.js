@@ -38,18 +38,6 @@ export const products = [
     ]
   },
   {
-    "id": 13,
-    "name": "Espejo de hierro con estantes en madera maciza(hace juego con estantes)",
-    "description": "• Espejo: 1,34 mts alto x 1 mt ancho\n• Estante madera: 1 mt largo x 0,19 mt ancho y espesor 3,5 cm",
-    "beforeprice": 106250,
-    "price": 77000,
-    "imageSrcs": [
-      "/images/espejo1.jpeg",
-      "/images/espejo2.jpeg",
-      "/images/espejo3.jpeg",
-    ]
-  },
-  {
     "id": 14,
     "name": "Mueble antiguo restaurado. Excelente estado de conservacion",
     "description": "• Altura 1.25 MT\n• Ancho 1,60 mt\n• Prof 0,45",
@@ -100,16 +88,6 @@ export const products = [
     ]
   },
   {
-    "id": 21,
-    "name": "Mueble de estilo antiguo",
-    "description": "• Alto 1,90 mts\n• Ancho: 0,50 \n• Prof: x 0,60",
-    "price": 61200,
-    "imageSrcs": [
-      "/images/repisa_antigua1.jpeg",
-      "/images/repisa_antigua2.jpeg"
-    ]
-  },
-  {
     "id": 22,
     "name": "Apliques luz de pared  x 4 unidades",
     "description": "",
@@ -126,15 +104,6 @@ export const products = [
     "imageSrcs": [
       "/images/apliques_aluminio1.jpeg",
       "/images/apliques_aluminio2.jpeg"
-    ]
-  },
-  {
-    "id": 24,
-    "name": "Araña colgante antigua madera y metal",
-    "description": "Diametro: 0,65 cm\n• Largo 3 mts\n• Con cadena",
-    "price": 55250,
-    "imageSrcs": [
-      "/images/arania1.jpeg"
     ]
   },
   {
@@ -176,15 +145,6 @@ export const products = [
     "imageSrcs": [
       "/images/plafon_blanco1.jpeg",
       "/images/plafon_blanco2.jpeg"
-    ]
-  },
-  {
-    "id": 30,
-    "name": "Monopatin cobra 720 con luces led plegable",
-    "description": "Led, plegable",
-    "price": 80750,
-    "imageSrcs": [
-      "/images/monopatin1.png"
     ]
   },
     {
